@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+import Header from './components/Header';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Ally Restaurant</h1>
+      <div className="BorderLayout">
+     <Header />
+
+      </div>
+      
     </div>
   );
 }

@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.BorderLayout {
+  background-color: red;
+  border: 2px solid red;
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffffff;
+  color: red;
+}
